@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
   {%- set numSitemaps = (totalPages / pagesPerSitemap) | round(0, "ceil") %}
   {%- for i in range(0, numSitemaps) %}
   <sitemap>
-    <loc>https://jav-code-best.vercel.app/sitemap-{{ i + 1 }}.xml</loc>
+    <loc>https://javcode.vercel.app/sitemap-{{ i + 1 }}.xml</loc>
   </sitemap>
   {%- endfor %}
 </sitemapindex>
