@@ -10,14 +10,14 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {%- for page in pageList %}
   <url>
-    <loc>https://jav-code-best.vercel.app/{{ page.slug }}/</loc>
+    <loc>https://javcode.vercel.app/{{ page.slug }}/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   {%- endfor %}
   {%- if pagination.pageNumber == 0 %}
   <url>
-    <loc>https://jav-code-best.vercel.app/</loc>
+    <loc>https://javcode.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jav-code-best.vercel.app/sitemap.xml
+Sitemap: https://javcode.vercel.app/sitemap.xml
